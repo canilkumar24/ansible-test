@@ -1,0 +1,7 @@
+- hosts: apps
+  become: yes
+  roles:
+     - base-config
+     - app-tier
+     - ha_proxy
+     - postgre_sql

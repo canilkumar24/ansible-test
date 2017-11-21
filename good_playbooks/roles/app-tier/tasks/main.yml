@@ -1,0 +1,7 @@
+---
+# tasks file for roles/app-tier
+
+- name: install tomcat
+  package:
+    name: tomcat
+    state: latest
